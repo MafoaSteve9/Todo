@@ -5,14 +5,25 @@
     font-size: 14px;
 }
 
+section {
+  display: flex;
+  /* width: 800px; */
+  justify-content: center;
+}
+
 ul {
     display: flex;
-    gap: 6px;
+    gap: 10px;
     flex-wrap: wrap;
+    width: 800px;
 }
 
 form {
     text-align: center;
+    padding: 20px;
+}
+h1{
+  margin: 10px;
 }
 
 .task {
@@ -22,7 +33,7 @@ form {
   gap: 10px;
   margin: 5px 0;
   padding: 18px;
-  max-width: 350px;
+  width: 350px;
   background: #f3f3f3;
   border-radius: 5px;
   list-style: none;
@@ -34,9 +45,7 @@ form {
 }
 
 .delete-btn {
-  background: transparent;
   border: none;
   cursor: pointer;
-  color: red;
   font-size: 1.2rem;
 }
